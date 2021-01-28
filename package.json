@@ -3,7 +3,7 @@
     "name": "Patrik Simek",
     "url": "https://patriksimek.cz"
   },
-  "name": "mssql",
+  "name": "@magnakarsamulya/mssql",
   "description": "Microsoft SQL Server client for Node.js.",
   "keywords": [
     "database",
@@ -21,9 +21,12 @@
     "azure",
     "node-mssql"
   ],
-  "version": "6.3.1",
+  "version": "6.3.1b",
   "main": "index.js",
-  "repository": "github:tediousjs/node-mssql",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MagnaKarsaMulya/node-mssql.git"
+  },
   "license": "MIT",
   "dependencies": {
     "debug": "^4.3.1",
